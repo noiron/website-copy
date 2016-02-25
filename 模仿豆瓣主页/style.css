@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 30px;
+    font: 12px Helvetica, Arial, sans-serif
+    line-height: 1.62;
+}
+
+a {
+    text-decoration: none;  /* 消除所有链接的下划线 */
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#nav {
+    width: 950px;
+    margin: 0 auto 25px;
+}
+
+#nav .nav-links {
+    float: right;
+    margin-top: 6px;
+}
+
+#nav .nav-links li {
+    display: inline-block;
+    margin: 0 0 0 17px;
+}
+
+#nav .nav-links li a {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    overflow: hidden;
+    margin: 0;
+    line-height: 20em;
+    vertical-align: middle;
+    background: transparent url("image/anony_nav_logo.png") no-repeat 100% 100%;
+}
+
+#nav .nav-links li .link-book {
+    background-position: 0 0;
+}
+
+#nav .nav-links li .link-movie {
+    background-position: -60px 0;
+}
+
+#nav .nav-links li .link-music {
+    background-position: -120px 0;
+}
+
+#nav .nav-links li .link-group {
+    background-position: -180px 0;
+}
+
+#nav .nav-links li .link-events {
+    background-position: -240px 0;
+}
+
+#nav .nav-links li .link-fm {
+    background-position: -300px 0;
+}
+
+#nav .nav-links li .link-dongxi {
+    background-position: -360px 0;
+}
+
+#nav .nav-links li .link-market {
+    background-position: -421px 0;
+}
+
+#nav h1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 34px;
+    margin: 0 20px 0 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+    background: url("image/logo_db.png") no-repeat 0 0;
+}
+
+#nav h1 a {
+    display: block;
+    height: 34px;
+    line-height: 10em;
+}
+
+#nav .search {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+}
+
+#nav .search .inp {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+}
+
+#nav .search .input input {
+    width: 240px;
+    border: none;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+}
+
+#nav .search .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("image/bn_srh_1.png") no-repeat 50% 50%;
+}
+
+#nav .search .button input {
+    border: none;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    color: transparent;
+}
