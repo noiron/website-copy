@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知乎登录页面（伪）</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="index-main">
+    <div class="index-main-body">
+        <!--页面标题部分-->
+        <div class="index-header">
+            <h1 class="logo">知乎</h1>
+
+            <h2 class="subtitle">与世界分享你的知识、经验和见解</h2>
+        </div>
+
+
+        <!--登录部分-->
+        <div class="sign-flow">
+            <!--选择登录或注册-->
+            <div class="index-tab-navs">
+                <div class="navs-slider">
+                    <a href="#signup" class="active">注册</a>
+                    <a href="#signin">登录</a>
+                    <span class="navs-slider-bar"></span>
+                </div>
+            </div>
+
+            <!--注册-->
+            <div class="view-signup">
+                <form action="" id="sign-form-1">
+                    <div class="group-inputs">
+                        <div class="name input-wrapper">
+                            <input required type="text" name="fullname" placeholder="姓名">
+                        </div>
+                        <div class="email input-wrapper">
+                            <input required type="text" class="account" name="phone_num" placeholder="手机号（仅支持中国大陆）">
+                        </div>
+                        <div class="input-wrapper">
+                            <input required type="password" name="password" placeholder="密码（不少于 6 位）">
+                        </div>
+                        <div class="captcha-module input-wrapper">
+                            <input required name="captcha" placeholder="验证码">
+                            <div class="captcha-container">
+                                <img class="captcha" width="120" height="30" alt="验证码" src="image/captcha.gif">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--注册按钮-->
+                    <div class="button-wrapper">
+                        <button class="sign-button submit" type="submit">注册知乎</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer"></div>
+</body>
+</html>
