@@ -10,13 +10,19 @@ body {
 }
 
 a {
-    text-decoration: none;  /* Ïû³ıËùÓĞÁ´½ÓµÄÏÂ»®Ïß */
+    text-decoration: none;  /* æ¶ˆé™¤æ‰€æœ‰é“¾æ¥çš„ä¸‹åˆ’çº¿ */
+}
+
+a img {
+    border-width: 0;
+    vertical-align: middle;
 }
 
 ul, ol {
     list-style: none;
 }
 
+/*å¯¼èˆªéƒ¨åˆ†æ ·å¼*/
 #nav {
     width: 950px;
     margin: 0 auto 25px;
@@ -90,7 +96,7 @@ ul, ol {
 #nav h1 a {
     display: block;
     height: 34px;
-    line-height: 10em;
+    text-indent: -9999px;
 }
 
 #nav .search {
@@ -137,3 +143,98 @@ ul, ol {
     cursor: pointer;
     color: transparent;
 }
+
+
+/*ç™»å½•åŠæ³¨å†Œéƒ¨åˆ†æ ·å¼*/
+#reg-new {
+    margin-bottom: 25px;
+    background: #eef4ed;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#reg-new .wrapper {
+    position: relative;
+    padding: 28px 0 4px;
+    height: 146px;
+    background: url("image/doubanapp3.png") no-repeat -75px top;
+}
+
+
+#reg-new .wrapper:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#reg-new .login {
+    width: 270px;
+    height: 131px;
+    float: right;
+    background: cadetblue;
+    z-index: 2;
+}
+
+#reg-new .app {
+    position: absolute;
+    height: 120px;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    margin: auto 0 auto 400px;
+}
+
+#reg-new .app-title {
+    margin: 7px 0;
+    font-size: 25px;
+    color: #111;
+    line-height: 24px;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+
+#reg-new .app-title span {
+    color: #666666;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+#reg-new .app-slogan {
+    /*margin: 0 0 18px;*/
+    color: #111111;
+    text-align: justify;
+}
+
+#reg-new .app-slogan span {
+    font-size: 12px;
+}
+
+#reg-new .app-slogan span:after {
+    content: "";
+    display: inline-block;
+    width: 100%
+}
+
+#reg-new .link-app {
+    background: #3CA353;
+    color: #ffffff;
+    display: inline-block;
+    padding: 9px 21px 8px;
+    margin-right: 2px;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 1;
+}
+
+#reg-new .app-qr {
+    display: inline-block;
+}
+
+#reg-new .link-qr {
+    display: inline-block;
+    border: 1px solid #48aa0d;
+    border-radius: 2px;
+}
+
