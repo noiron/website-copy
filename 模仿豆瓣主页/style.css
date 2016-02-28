@@ -22,6 +22,18 @@ ul, ol {
     list-style: none;
 }
 
+form {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+input {
+    outline: none;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
 /*导航部分样式*/
 #nav {
     width: 950px;
@@ -108,7 +120,7 @@ ul, ol {
     border: 1px solid #c3c3c3;
 }
 
-#nav .search .inp {
+#nav .search .input {
     display: block;
     height: 30px;
     overflow: hidden;
@@ -159,7 +171,7 @@ ul, ol {
 #reg-new .wrapper {
     position: relative;
     padding: 28px 0 4px;
-    height: 146px;
+    height: 182px;
     background: url("image/doubanapp3.png") no-repeat -75px top;
 }
 
@@ -174,9 +186,117 @@ ul, ol {
     width: 270px;
     height: 131px;
     float: right;
-    background: cadetblue;
     z-index: 2;
+    margin-bottom: 15px;
 }
+
+#reg-new .login fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#reg-new .login legend {
+    display: none;
+}
+
+#reg-new .login .item {
+    margin-bottom: 4px;
+}
+
+#reg-new .login .item .input {
+    border: 1px solid #DBE5DB;
+    border-radius: 2px;
+    width: 252px;
+    padding: 0 8px;
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+
+#reg-new .login .item-password.item {
+    position: relative;
+    background-color: #ffffff;
+}
+
+#reg-new .login .item-password.item .input {
+    border: 0;
+    width: 220px;
+}
+
+#reg-new .login .item.item-password .opt {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 12px;
+    line-height: 35px;
+
+}
+
+#reg-new .login .item.item-password .opt a {
+    color: #cccccc;
+}
+
+#reg-new .login .item-captcha {
+    position: relative;
+}
+
+#reg-new .login .item-captcha img {
+    width: 158px;
+    height: 26px;
+    vertical-align: middle;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+}
+
+#reg-new .login .item-submit {
+    margin-top: 6px;
+}
+
+#reg-new .login .item, #reg-new .login .item-submit {
+    vertical-align: top;
+    text-align: left;
+}
+
+#reg-new .login .btn-submit {
+    padding: 0 22px;
+    margin-right: 0;
+    height: 30px;
+    font-size: 12px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #30A080;
+    border-color: #30A080;
+    color: #fff;
+    width: 89px;
+    box-sizing: content-box;
+}
+
+#reg-new .link-reg {
+    display: inline-block;
+    padding: 8px 21px 7px;
+    border: 1px solid #30A080;
+    width: 89px;
+    margin-left: -1px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    color: #30A080;
+}
+
+#reg-new .login .item-action {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #666666;
+    vertical-align: middle;
+}
+
+#reg-new .login .item-action label{
+    vertical-align: middle;
+}
+
 
 #reg-new .app {
     position: absolute;

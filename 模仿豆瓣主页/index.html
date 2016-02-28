@@ -39,7 +39,44 @@
 <!--登录及注册-->
 <div id="reg-new">
     <div class="wrapper">
-        <div class="login"></div>
+        <!--登录框-->
+        <div class="login">
+            <form id="lzform" name="lzform" method="post">
+                <fieldset>
+                    <legend>登录</legend>
+                    <input type="hidden" value="index_nav" name="source">
+                    <!--账号-->
+                    <div class="item item-account">
+                        <input type="text" name="form_email" id="form_email" value="" class="input" placeholder="邮箱 / 手机号" tabindex="1">
+                    </div>
+                    <!--密码-->
+                    <div class="item item-password">
+                        <input type="password" name="form_password" id="form_password" value="" class="input" placeholder="密码" tabindex="2">
+                        <div class="opt">
+                            <a href="javascript:void 0;">帮助</a>
+                        </div>
+                    </div>
+                    <!--验证码-->
+                    <div class="item item-captcha">
+                        <div class="captcha-block">
+                            <input type="text" class="input" id="captcha-field" name="captcha-solution" tabindex="3" placeholder="验证码">
+                        </div>
+                        <img id="captcha-image" src="image/captcha.jpg" title="一张假冒的验证码图片">
+                    </div>
+                    <!--按钮-->
+                    <div class="item item-submit">
+                        <input value="登录豆瓣" type="submit" class="btn-submit" tabindex="4">
+                        <a href="#" class="link-reg">注册账号</a>
+                    </div>
+                    <div class="item-action">
+                        <label for="form-remember">
+                            <input name="remember" type="checkbox" id="form-remember">记住我
+                        </label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
         <div class="app">
             <p class="app-title">豆瓣<span>3.0</span></p>
             <p class="app-slogan"><span>和有趣的人做有趣的事</span></p>
