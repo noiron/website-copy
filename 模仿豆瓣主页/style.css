@@ -1,16 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Microsoft Yahei',Helvetica,Arial sans-serif
 }
 
 body {
     padding-top: 30px;
-    font: 12px Helvetica, Arial, sans-serif
+    font-size: 12px;
     line-height: 1.62;
+}
+
+h2 {
+    font: 15px Arial, Helvetica,'Microsoft Yahei', sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%
 }
 
 a {
     text-decoration: none;  /* 消除所有链接的下划线 */
+    color: #37a;
+}
+
+a:visited {
+    color: #669;
+    text-decoration: none;
 }
 
 a img {
@@ -276,7 +290,7 @@ input {
 
 #reg-new .link-reg {
     display: inline-block;
-    padding: 8px 21px 7px;
+    padding: 8px 21px 9px;
     border: 1px solid #30A080;
     width: 89px;
     margin-left: -1px;
@@ -284,6 +298,7 @@ input {
     line-height: 1;
     text-align: center;
     color: #30A080;
+    vertical-align: top;
 }
 
 #reg-new .login .item-action {
@@ -356,5 +371,107 @@ input {
     display: inline-block;
     border: 1px solid #48aa0d;
     border-radius: 2px;
+}
+
+
+/*热点内容部分css*/
+.section {
+    padding: 10px 0;
+    min-height: 200px;
+}
+
+.mod {
+    margin-bottom: 30px;
+}
+
+#sns #homepage-top-ad {
+    width: 950px;
+    height: 90px;
+    background-color: #8ee1d8;
+    margin: auto;
+    text-align: center;
+}
+
+#sns #homepage-top-ad span {
+    font-size: 2em;
+    line-height: 90px;
+    font-family: 'Microsoft Yahei',Helvetica,Arial sans-serif
+}
+
+.section .side {
+    float: right;
+    width: 265px;
+    margin-left: 30px;
+    height: 300px;
+}
+
+#sns .side .one-moment-pic {
+    margin: 10px 0;
+}
+
+.pl {
+    font-size: 12px;
+    line-height: 150%;
+    color: #666;
+}
+
+#sns .online li {
+    margin-top: 10px;
+    color: #999;
+}
+
+#sns .online .title {
+    margin-bottom: 4px;
+    line-height: 1.45;
+}
+
+#sns .albums {
+    float: left;
+    width: 350px;
+    margin-right: 30px;
+}
+
+#sns .main {
+    margin-top: 10px;
+}
+
+#sns .albums {
+    float: left;
+    width: 350px;
+    margin-right: 30px;
+    color: #999;
+}
+
+#sns .albums .pic {
+    overflow: hidden;
+}
+
+#sns .albums ul {
+    margin: -10px 0 0 -10px;
+    font-size: 0;
+}
+
+#sns .albums li {
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+
+#sns .notes {
+    color: #666;
+}
+
+#sns .notes .first {
+    margin-top: 0;
+}
+
+#sns .notes .author {
+    color: #999;
+}
+
+#sns .notes li {
+    margin-top: 12px;
 }
 
